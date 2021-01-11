@@ -4,8 +4,9 @@ import time
 
 # creating socket and accpeting user input hostname
 
+
 socket_server = socket.socket()
-server_host = socket.gethostname()
+server_host = socket.gethostbyname()
 ip = socket.gethostbyname(server_host)
 sport = 8080
 
